@@ -1,0 +1,40 @@
+button {
+  padding: 20px 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button.correct {
+  background: linear-gradient(to bottom, #2ecc71, #27ae60);
+  transition: background-color 0.3s ease;
+}
+
+button.incorrect {
+  background: linear-gradient(to bottom, #e74c3c, #c0392b);
+  transition: background-color 0.3s ease;
+}
+
+button:active {
+  animation: glowing 1.5s infinite;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 118, 117, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 40px rgba(255, 118, 117, 0);
+  }
+}

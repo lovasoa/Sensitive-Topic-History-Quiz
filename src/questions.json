@@ -1,0 +1,319 @@
+[
+  {
+    "question": "What country was the United States at war with in the 18th century?",
+    "answers": ["Canada", "Mexico", "Great Britain"],
+    "correctAnswer": "Great Britain"
+  },
+  {
+    "question": "What country did the United States invade in 1898?",
+    "answers": ["Cuba", "Spain", "Mexico"],
+    "correctAnswer": "Spain"
+  },
+  {
+    "question": "What country did the United States drop atomic bombs on in 1945?",
+    "answers": ["Japan", "Germany", "Italy"],
+    "correctAnswer": "Japan"
+  },
+  {
+    "question": "What country did the United States support in the Iran-Iraq War?",
+    "answers": ["Iran", "Iraq", "Neither"],
+    "correctAnswer": "Iraq"
+  },
+  {
+    "question": "What country did the United States invade in 2003?",
+    "answers": ["Afghanistan", "Iraq", "Iran"],
+    "correctAnswer": "Iraq"
+  },
+  {
+    "question": "What country did the United States support in the Arab Spring?",
+    "answers": ["Egypt", "Syria", "Libya"],
+    "correctAnswer": "Egypt"
+  },
+  {
+    "question": "What country did the United States support in the Yemeni Civil War?",
+    "answers": ["Houthi rebels", "Government forces", "Neither"],
+    "correctAnswer": "Government forces"
+  },
+  {
+    "question": "What was the name of the operation that led to the invasion of Iraq?",
+    "answers": [
+      "Operation Iraqi Freedom",
+      "Operation Desert Storm",
+      "Operation Desert Shield"
+    ],
+    "correctAnswer": "Operation Iraqi Freedom"
+  },
+  {
+    "question": "What was the primary justification for the invasion of Iraq?",
+    "answers": [
+      "Weapons of mass destruction",
+      "Supporting terrorism",
+      "Saddam Hussein's human rights violations"
+    ],
+    "correctAnswer": "Weapons of mass destruction"
+  },
+  {
+    "question": "What country did the United States invade in response to the 9/11 terrorist attacks?",
+    "answers": ["Afghanistan", "Iraq", "Iran"],
+    "correctAnswer": "Afghanistan"
+  },
+  {
+    "question": "What was the name of the secret detention and interrogation program used by the United States after 9/11?",
+    "answers": [
+      "Enhanced interrogation techniques",
+      "Extraordinary rendition",
+      "Black site program"
+    ],
+    "correctAnswer": "Enhanced interrogation techniques"
+  },
+  {
+    "question": "What was the nickname of the war in Iraq?",
+    "answers": ["The Gulf War", "The Iraq War", "The Iraq Campaign"],
+    "correctAnswer": "The Iraq War"
+  },
+  {
+    "question": "What was the name of the terrorist group that claimed responsibility for the 9/11 attacks?",
+    "answers": ["Al-Qaeda", "ISIS", "Hezbollah"],
+    "correctAnswer": "Al-Qaeda"
+  },
+  {
+    "question": "What was the primary motivation behind President Trump's decision to withdraw from the Paris Climate Accord?",
+    "answers": [
+      "To protect the environment",
+      "To save American jobs",
+      "To support the fossil fuel industry"
+    ],
+    "correctAnswer": "To support the fossil fuel industry"
+  },
+  {
+    "question": "What was President Trump's response to the ongoing humanitarian crisis in Syria?",
+    "answers": [
+      "Condemnation and sanctions",
+      "Increased humanitarian aid",
+      "Airstrikes and military intervention"
+    ],
+    "correctAnswer": "Airstrikes and military intervention"
+  },
+  {
+    "question": "What was the primary reason for President Trump's decision to recognize Jerusalem as the capital of Israel?",
+    "answers": [
+      "To support the peace process",
+      "To fulfill a campaign promise",
+      "To please his evangelical supporters"
+    ],
+    "correctAnswer": "To fulfill a campaign promise"
+  },
+  {
+    "question": "What was President Trump's response to the ongoing human rights crisis in Saudi Arabia?",
+    "answers": [
+      "Condemnation and sanctions",
+      "Increased diplomatic pressure",
+      "Increased arms sales"
+    ],
+    "correctAnswer": "Increased arms sales"
+  },
+  {
+    "question": "What did President Trump do to address the issue of climate change?",
+    "answers": [
+      "Initiated a carbon tax",
+      "Ratified the Paris Climate Accord",
+      "Withdrew from the Paris Climate Accord"
+    ],
+    "correctAnswer": "Withdrew from the Paris Climate Accord"
+  },
+  {
+    "question": "How did President Trump respond to the refugee crisis in Syria?",
+    "answers": [
+      "Increased humanitarian aid",
+      "Resettled refugees in the US",
+      "Reduced the number of refugees allowed into the US"
+    ],
+    "correctAnswer": "Reduced the number of refugees allowed into the US"
+  },
+  {
+    "question": "What did President Trump do to address the issue of gun control?",
+    "answers": [
+      "Implemented stricter background checks",
+      "Raised the minimum age to purchase firearms",
+      "Reduced funding for gun violence research"
+    ],
+    "correctAnswer": "Reduced funding for gun violence research"
+  },
+  {
+    "question": "How did President Trump respond to the rise of white nationalism and hate crimes?",
+    "answers": [
+      "Condemned hate speech and violence",
+      "Increased funding for hate crime prevention",
+      "Refused to condemn white nationalists"
+    ],
+    "correctAnswer": "Refused to condemn white nationalists"
+  },
+  {
+    "question": "What did President Trump do to address the issue of income inequality?",
+    "answers": [
+      "Increased minimum wage",
+      "Implemented universal healthcare",
+      "Cut taxes for the wealthy"
+    ],
+    "correctAnswer": "Cut taxes for the wealthy"
+  },
+  {
+    "question": "How did President Trump respond to the rise of ISIS?",
+    "answers": [
+      "Increased diplomatic efforts",
+      "Increased humanitarian aid",
+      "Increased military intervention"
+    ],
+    "correctAnswer": "Increased military intervention"
+  },
+  {
+    "question": "What did President Trump do to address the issue of healthcare?",
+    "answers": [
+      "Implemented universal healthcare",
+      "Increased funding for healthcare research",
+      "Repealed the Affordable Care Act"
+    ],
+    "correctAnswer": "Repealed the Affordable Care Act"
+  },
+  {
+    "question": "What was President Biden's stance on the war in Iraq?",
+    "answers": [
+      "Opposed it from the start",
+      "Supported it initially but later opposed it",
+      "Continued to support it"
+    ],
+    "correctAnswer": "Supported it initially but later opposed it"
+  },
+  {
+    "question": "What was President Obama's response to the Arab Spring uprisings?",
+    "answers": [
+      "Condemnation and sanctions",
+      "Increased diplomatic pressure",
+      "Limited military intervention"
+    ],
+    "correctAnswer": "Increased diplomatic pressure"
+  },
+  {
+    "question": "What was President Bush's response to the 9/11 attacks?",
+    "answers": [
+      "Increased security measures at home",
+      "Invasion of Afghanistan",
+      "Invasion of Iraq"
+    ],
+    "correctAnswer": "Invasion of Iraq"
+  },
+  {
+    "question": "What was President Biden's stance on the Iran nuclear deal?",
+    "answers": ["Opposed it", "Supported it", "Withdrew from it"],
+    "correctAnswer": "Supported it"
+  },
+  {
+    "question": "What was President Obama's response to the 2008 financial crisis?",
+    "answers": [
+      "Increased regulations on Wall Street",
+      "Bailouts for major banks",
+      "Both of the above"
+    ],
+    "correctAnswer": "Both of the above"
+  },
+  {
+    "question": "What was President Bush's stance on climate change?",
+    "answers": [
+      "Denied its existence",
+      "Acknolwedged its existence but did not take action",
+      "Supported efforts to combat it"
+    ],
+    "correctAnswer": "Denied its existence"
+  },
+  {
+    "question": "What was President Biden's response to the Black Lives Matter protests?",
+    "answers": [
+      "Condemnation and increased police presence",
+      "Condemnation but also support for systemic change",
+      "Unconditional support"
+    ],
+    "correctAnswer": "Condemnation but also support for systemic change"
+  },
+  {
+    "question": "What country was the United States at war with in 2001?",
+    "answers": ["Afghanistan", "Iraq", "Iran"],
+    "correctAnswer": "Afghanistan"
+  },
+  {
+    "question": "What country did the United States support in the Iran-Contra scandal?",
+    "answers": ["Iran", "Nicaragua", "Neither"],
+    "correctAnswer": "Nicaragua"
+  },
+  {
+    "question": "What was the primary justification for the invasion of Afghanistan?",
+    "answers": [
+      "To capture Osama bin Laden",
+      "To overthrow the Taliban",
+      "To support terrorism"
+    ],
+    "correctAnswer": "To capture Osama bin Laden"
+  },
+  {
+    "question": "What was the primary justification for the invasion of Vietnam?",
+    "answers": [
+      "To stop the spread of communism",
+      "To support democracy",
+      "To protect American interests"
+    ],
+    "correctAnswer": "To stop the spread of communism"
+  },
+  {
+    "question": "What was the primary justification for the invasion of Panama?",
+    "answers": [
+      "To capture Manuel Noriega",
+      "To protect American lives",
+      "To support democracy"
+    ],
+    "correctAnswer": "To capture Manuel Noriega"
+  },
+  {
+    "question": "What was the primary justification for the invasion of Grenada?",
+    "answers": [
+      "To protect American lives",
+      "To support democracy",
+      "To stop the spread of communism"
+    ],
+    "correctAnswer": "To protect American lives"
+  },
+  {
+    "question": "What was the primary justification for the invasion of Cuba?",
+    "answers": [
+      "To overthrow Fidel Castro",
+      "To protect American interests",
+      "To support democracy"
+    ],
+    "correctAnswer": "To overthrow Fidel Castro"
+  },
+  {
+    "question": "What was the primary justification for the invasion of Haiti?",
+    "answers": [
+      "To protect American lives",
+      "To support democracy",
+      "To stop the spread of communism"
+    ],
+    "correctAnswer": "To support democracy"
+  },
+  {
+    "question": "What was the primary justification for the invasion of Somalia?",
+    "answers": [
+      "To protect American lives",
+      "To support democracy",
+      "To stop the spread of terrorism"
+    ],
+    "correctAnswer": "To stop the spread of terrorism"
+  },
+  {
+    "question": "What was the primary justification for the invasion of Libya?",
+    "answers": [
+      "To protect American lives",
+      "To support democracy",
+      "To stop the spread of terrorism"
+    ],
+    "correctAnswer": "To support democracy"
+  }
+]

@@ -1,0 +1,45 @@
+.game-over {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.concluding-statement {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.invitation {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.note {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.score {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.score-number {
+  color: #e91e63;
+  animation: animate-color 1s linear infinite;
+}
+
+@keyframes animate-color {
+  0% {
+    color: #e91e63;
+  }
+  50% {
+    color: #9c27b0;
+  }
+  100% {
+    color: #e91e63;
+  }
+}
