@@ -1,5 +1,5 @@
 {
-  "name": "Sensitive Topic History Quiz",
+  "name": "sensitive-topic-history-quiz",
   "version": "1.0.0",
   "description": "A quiz game about sensitive topics in history, written entirely by an AI.",
   "keywords": [
@@ -30,4 +30,3 @@
   "license": "MIT",
   "author": "AI"
 }
-
