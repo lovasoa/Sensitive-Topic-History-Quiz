@@ -47,16 +47,16 @@ const GameInProgress = ({
   });
 
   return (
-    <div className="game">
+    <div className="game-container">
       <h2>{currentQuestion.question}</h2>
       {currentQuestion.answers.map((answer, index) => (
         <button
           key={index}
           className={
             clicked && answer === currentQuestion.correctAnswer
-              ? "correct"
+              ? "correct-answer"
               : clicked && answer !== currentQuestion.correctAnswer
-              ? "incorrect"
+              ? "incorrect-answer"
               : ""
           }
           // Call the handleAnswerClick function when the button is clicked

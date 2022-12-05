@@ -11,12 +11,12 @@ button {
   margin-bottom: 10px;
 }
 
-button.correct {
+button.correct-answer {
   background: linear-gradient(to bottom, #2ecc71, #27ae60);
   transition: background-color 0.3s ease;
 }
 
-button.incorrect {
+button.incorrect-answer {
   background: linear-gradient(to bottom, #e74c3c, #c0392b);
   transition: background-color 0.3s ease;
 }

@@ -5,11 +5,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin-top: 20px;
+  margin: 0;
+  padding: 0;
 }
 
-.game {
-  max-width: calc(100% - 80px);
+.game-container {
+  max-width: 700px;
   margin: 0 auto;
   padding: 40px;
   padding-top: 60px;
@@ -29,11 +30,10 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  margin-bottom: 30px;
+p {
+  font-size: 18px;
   color: #333;
-  font-size: 24px;
-  text-align: center;
+  margin-bottom: 20px;
 }
 
 button {
@@ -66,10 +66,4 @@ button:hover {
   100% {
     box-shadow: 0 0 0 40px rgba(255, 118, 117, 0);
   }
-}
-
-p {
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 20px;
 }
