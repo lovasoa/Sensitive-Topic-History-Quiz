@@ -8,13 +8,21 @@ body {
   margin-top: 20px;
 }
 
-.game-container {
-  max-width: 600px;
+.game {
+  max-width: calc(100% - 80px);
   margin: 0 auto;
+  padding: 40px;
+  padding-top: 60px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-  margin-top: 0; /* modify this value */
+  margin: 0;
   margin-bottom: 30px;
   color: #333;
   font-size: 36px;
@@ -26,18 +34,6 @@ h2 {
   color: #333;
   font-size: 24px;
   text-align: center;
-}
-
-.game {
-  width: 600px;
-  padding: 40px;
-  padding-top: 60px; /* modify this value */
-  border-radius: 20px;
-  background-color: #fff;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 button {
