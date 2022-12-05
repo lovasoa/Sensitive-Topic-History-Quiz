@@ -11,6 +11,21 @@
 <ul>
   <li>
     <blockquote>
+      Fix the warning that appears when using the ReactDOM.render method.
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      Let the user play by entering the answer number on their the keyboard, using idiomatic react code and no direct DOM manipulation.
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
+      Fix the intro component so that it is wrapped in the right element, and isn't too wide.
+    </blockquote>
+  </li>
+  <li>
+    <blockquote>
       Make the game intro sarcastic and explain that the questions and answers are written by an AI.
     </blockquote>
   </li>
