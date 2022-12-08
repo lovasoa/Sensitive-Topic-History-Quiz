@@ -30,6 +30,7 @@ const SensitiveTopicGame = () => {
 
     // Check if the timer has reached 0 and move to the next question if it has
     if (timer === 0) {
+      setTimer(30); // Reset the timer to 30 seconds
       handleNextQuestion();
     }
 
