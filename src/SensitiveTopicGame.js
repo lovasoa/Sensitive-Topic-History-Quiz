@@ -4,24 +4,26 @@ import GameOver from "./GameOver";
 import GameInProgress from "./GameInProgress";
 import "./styles.css"; // Import the stylesheet
 
+// Define a constant for the time limit for the quiz game
+const TIME_LIMIT = 30;
+
 const SensitiveTopicGame = () => {
   // Use the useState hook to define and update state variables
   const [currentQuestion, setCurrentQuestion] = useState(questions[0]);
   const [score, setScore] = useState(0);
-  const [timer, setTimer] = useState(30);
+  const [timer, setTimer] = useState(TIME_LIMIT);
   const [gameOver, setGameOver] = useState(false);
 
   // Use the useCallback hook to create a memoized version of the handleNextQuestion function
   const handleNextQuestion = useCallback(() => {
     const nextQuestionIndex = questions.indexOf(currentQuestion) + 1;
     if (nextQuestionIndex < questions.length) {
-      setTimer(30); // Reset the timer to 30 seconds
+      setTimer(TIME_LIMIT); // Reset the timer to the time limit
       setCurrentQuestion(questions[nextQuestionIndex]);
     } else {
       setGameOver(true);
     }
   }, [currentQuestion, setCurrentQuestion]);
-
 
   // Use the useEffect hook to run a callback function when the component is mounted
   useEffect(() => {
@@ -32,7 +34,7 @@ const SensitiveTopicGame = () => {
 
     // Check if the timer has reached 0 and move to the next question if it has
     if (timer === 0) {
-      setTimer(30); // Reset the timer to 30 seconds
+      setTimer(TIME_LIMIT); // Reset the timer to the time limit
       handleNextQuestion();
     }
 
@@ -51,9 +53,10 @@ const SensitiveTopicGame = () => {
   const handlePlayAgain = () => {
     setCurrentQuestion(questions[0]);
     setScore(0);
-    setTimer(30);
+    setTimer(TIME_LIMIT); // Reset the timer to the time limit
     setGameOver(false);
   };
+
 
   return (
     <div>
