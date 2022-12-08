@@ -15,11 +15,13 @@ const SensitiveTopicGame = () => {
   const handleNextQuestion = useCallback(() => {
     const nextQuestionIndex = questions.indexOf(currentQuestion) + 1;
     if (nextQuestionIndex < questions.length) {
+      setTimer(30); // Reset the timer to 30 seconds
       setCurrentQuestion(questions[nextQuestionIndex]);
     } else {
       setGameOver(true);
     }
   }, [currentQuestion, setCurrentQuestion]);
+
 
   // Use the useEffect hook to run a callback function when the component is mounted
   useEffect(() => {
